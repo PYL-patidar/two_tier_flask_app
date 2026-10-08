@@ -23,7 +23,7 @@ services:
     build: .
     container_name: flask-app
     ports:
-      - "8000:5000"
+      - "5000:5000"
     networks:
       - flaskapp-nw
     environment:
